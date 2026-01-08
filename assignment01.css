@@ -16,7 +16,7 @@ header{
 
     max-width: 1600px;
     height: 92px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .navigation .nav_content{
@@ -31,7 +31,7 @@ header{
 .nav_content .nav_list{
     display: flex;
     max-width: 365px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     gap: 32px;
     list-style: none;
