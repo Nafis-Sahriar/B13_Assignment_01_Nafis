@@ -90,6 +90,7 @@ header{
     font-size: 18px;
     color: #FFFFFF;
     padding-top: 16px;
+    font-weight: normal;
 }
 
 
@@ -415,6 +416,63 @@ header{
 {
     list-style: none;
 }
+
+footer
+{
+    background-color: #001931 ;
+    max-width: 1600px;
+    max-height: 348px;
+}
+
+footer .img_socialLink
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    /* border: 2px solid white; */
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+footer .line_copyright
+{
+    max-width: 1360px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top:80px ;
+    text-align: center;
+
+}
+
+footer .line_copyright p{
+    color: white;
+    padding:30px;
+}
+
+.img_socialLink img
+{
+    max-width: 139px;
+}
+.social a img{
+    max-width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.social h4
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+
+.social
+{
+    max-width: 220px;
+}
+
+
 
 
 
