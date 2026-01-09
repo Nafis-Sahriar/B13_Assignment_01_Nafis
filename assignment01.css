@@ -3,8 +3,8 @@
 }
 
 
-.font-open-sans{
-  font-family: "Open Sans", sans-serif;
+.font-inter{
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -55,6 +55,124 @@ header{
     margin-top: 8px;
     font-weight:600;
 }
+
+.head
+{
+    max-width: 1600px;
+    height: 674px;
+    background-image: url("/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.EANO{
+    max-width: 1360px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding-top: 115.5px;
+    padding-bottom: 179.5px;
+    text-align: center;
+}
+
+.EANO h1{
+    color: #FFFFFF;
+}
+
+.EANO .p2{
+    max-width: 229px;
+    margin: 0 auto;
+}
+
+.EANO .p1{
+
+    max-width: 1360px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+
+.mrGreen
+{
+    color: #30B868;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  background: white;
+  padding: 12px 24px;
+  border-radius: 999px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a8f63;
+
+  margin-bottom: 24px;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+  background: #4a8f63;
+  box-shadow: 0 0 0 6px rgba(74, 143, 99, 0.2);
+}
+
+.nav_cont{
+    max-width: 465px;
+    /* border: 1px solid red; */
+    align-items: center;
+    margin: auto;
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+    
+}
+
+.nav_cont .btn_one
+{
+    display: flex;
+    align-items: center;
+    max-width: 251px;
+    max-height: 52px;
+    color: white;
+    background-color:#30b869ab ;
+    border: none;
+    font-size: 16;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-weight:600;
+
+}
+
+.btn_one img{
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+
+}
+
+.nav_cont .btn_two
+{
+    max-width: 198px;
+    max-height: 52px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 16;
+    padding: 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-weight:600;
+}
+
+
 
 
 
