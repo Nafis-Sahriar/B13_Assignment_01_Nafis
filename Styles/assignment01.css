@@ -172,6 +172,97 @@ header{
     font-weight:600;
 }
 
+/* -- Frame 01 Starts her --  */
+
+#frame_02
+{
+    max-width: 1600px;
+    max-height: 448px;
+}
+
+#frame_02 .frame_02_container
+{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+#frame_02 .section-heading
+{
+    padding-top: 48px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+#frame_02 .section-heading h1{
+    padding-bottom: 16px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#frame_02 .section-heading p{
+
+    font-size: 16px;
+    color: #627382;
+
+
+}
+
+#frame_02 .card_box{
+    display: flex;
+    gap: 24px;
+    max-width: 1360px;
+}
+
+#frame_02 .card_box .card
+{
+    padding: 69.5px 24px;
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #0000001c;
+}
+
+.icon-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #f95555;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.icon-circle img{
+    max-width: 32px;
+}
+
+.card_content h3
+{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+    
+}
+
+.card_content p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 16px;
+    color: #627382;
+    text-align: center;
+    width: 274px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
