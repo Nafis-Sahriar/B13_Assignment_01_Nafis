@@ -60,7 +60,7 @@ header{
 {
     max-width: 1600px;
     height: 674px;
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("../Styles/hero-bg.png");
     background-size: cover;
     background-position: center;
 }
