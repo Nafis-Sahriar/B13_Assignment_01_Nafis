@@ -253,6 +253,100 @@ header{
     width: 274px;
 }
 
+#frame03
+{
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    background-color:white;
+
+    margin-top: 60px;
+}
+
+#frame03 .frame03_container
+{
+    display: flex;
+    gap: 60px;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.frame03_container .chobi img
+{
+    /* border: 2px solid red; */
+    width: 600;
+    vertical-align: middle;
+}
+
+.frame03_container .text_content
+{
+    /* border: 1px solid red; */
+    padding-top: 102px;
+   
+}
+
+.frame03_container .text_content .p_little
+{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+
+.frame03_container .text_content h1
+{
+    font-size: 48px;
+    color:black;
+    font-weight:bold;
+    padding-bottom: 16px;
+}
+
+.frame03_container .text_content p
+{
+    font-size: 16px;
+    color: #627382;
+    font-weight: normal;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+.tc_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+.tc_ul li {
+    display: flex;                 
+    align-items: flex-start;       
+    gap: 6px;
+    font-size: 16px;               
+    font-weight: 500;
+}
+
+.tc_ul li img {
+    width: 20px;
+    height: 20px;
+    display: block;                
+    margin-top: 2px;    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
